@@ -1,2 +1,0 @@
-# webNote.github.io
-Notes
