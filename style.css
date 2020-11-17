@@ -1,0 +1,85 @@
+body {
+    font-size: 15pt;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%235000ca' fill-opacity='1' d='M0,256L80,261.3C160,267,320,277,480,261.3C640,245,800,203,960,208C1120,213,1280,267,1360,293.3L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
+    
+    background-repeat: no-repeat;
+}
+
+
+#heading{
+  margin-left: 2vw;
+  margin-top: 4vw;
+  Color:white;
+  font-size: 4em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+@media screen and (max-width: 480px) {
+  #heading{
+    font-size: 2.5em;
+    margin-top: 3vw;
+  }
+}
+
+.card{
+  margin-top:7em;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    margin-top: 2em;
+  }
+}
+
+#main{
+  margin: 5px;
+}
+#submit{
+  margin-top: 2rem;
+}
+
+ .card{
+  background-color:#7536D5;
+  color:white ;
+}
+
+#submit{
+  background-color: white;
+  color: #7536D5;
+  outline: none;
+}
+.text-white{
+  background-color:#B24BF3;
+}
+#yournotes{
+  margin:0.5em;
+  font-size: 2em;
+  color:#804ECA;
+  font-family: 'Cardo', serif;
+  font-family: 'Staatliches', cursive;
+}
+.card-title,#submit,#inputBox{
+  font-family: 'Cabin', sans-serif;
+  text-transform: capitalize;
+}
+#notes{
+  width:100vw;
+  margin: 0px ;
+}
+/*@media screen and (max-width: 480px) {
+  .aditya{
+  margin:0.2rem 0.1rem;
+  transform: scale(0.95)
+  }
+}*/
+
+.mynt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
+  word-spacing: 0.1em;
+}
+.empty1{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.notett{
+  font-family: 'Lato', sans-serif;
+}
